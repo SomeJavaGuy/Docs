@@ -9,8 +9,9 @@ description: >-
 
 ## List of contexts
 
-* index
-* token
-* tag
-* error
+* [index](index.md)
+* [token](token.md)
+* [wallet](wallet.md)
+* [tag](tag.md)
+* [error](error.md)
 
