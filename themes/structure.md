@@ -76,7 +76,7 @@ Similar to the `tag.hbs` template, this allows a given wallet address to have it
 
 This is the default template used in the event that the user encounters an error, so long as a template with a specific error code is not set up.
 
-### **error-{{error-code}}.hbs**
+### **error-.hbs**
 
 This is an optional theme for error-code specific pages. So if you want to set up a funny `404` look no further!
 
@@ -92,10 +92,10 @@ Some classes are generated automatically and can be leveraged in those contexts 
 
 * `featured` — a featured token
 * `media-image` — an image token
-* `media-video` — a video token
-* `media-audio` — an audio token
+* `media-video` — a video token
+* `media-audio` — an audio token
 * `created` — a token that was created by an authenticated wallet
-* `collected` — a token that is owned by, but wasn't created by the authenticated wallet
+* `collected` — a token that is owned by, but wasn't created by the authenticated wallet
 
 ## Package.json
 

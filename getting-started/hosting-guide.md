@@ -6,21 +6,21 @@ description: >-
 
 # Hosting Guide
 
-### Netlify
+## Netlify
 
 Rodeo supports Netlify right out of the box. Simply pair your git repo using Netlify's automatic
 
 @todo photos + walkthrough
 
-### Vercel
+## Vercel
 
 @todo photos + walkthrough
 
-### Amazon S3
+## Amazon S3
 
 @todo photos + walkthrough
 
-### IPFS
+## IPFS
 
 Coming soon ...
 
