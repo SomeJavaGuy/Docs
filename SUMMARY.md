@@ -34,4 +34,3 @@
 * [FAQs](resources/faqs.md)
 * [Changelog](resources/changelog.md)
 * [Discord](https://discord.gg/pebQcUs9Ny)
-
