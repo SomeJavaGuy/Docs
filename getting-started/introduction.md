@@ -33,3 +33,11 @@ After picking which assets you want to display in your gallery, you can choose a
 
 With assets and a theme selected, Rodeo will generate your custom static site which can be quickly deployed on a hosting service of your choosing \(our pick for this is [Netlify](https://netlify.com)\). It's all compiled with the Eleventy static site generator and is designed for a super clean and fast experience for your viewers.
 
+## Break
+
+### What Rodeo Does
+
+### What Rodeo Doesn't Do
+
+* Doesn't fetch tokens minted by wallet address still for sale on various marketplaces such as Foundation
+

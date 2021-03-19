@@ -18,12 +18,13 @@ The default template for a token is `token.hbs`, which is a required template in
 * `hidden` — a boolean that marks a token as hidden, disabling it from showing up anywhere
 * `private` — a boolean that marks a token as private, which disables it from appearing in indexes, search, and prevents crawling, but does leave a page up so that it can be shared
 * `name` — the name of the token
-* `type` — the token type
+* `type` — the token type \(media\)
 * `description` — the description of the token
 * `collection` — the title of the token collection
-* `created_by` — the address of the originator of the token
+* `minted_by` — the address of the originator of the token
 * `owned_by` — the address of the current owner of the token
-* `created_by_owner` — a boolean that indicates whether or not the created\_by and owned\_by addresses match
+* `is_minted_by_wallet` — a boolean that indicates whether or not the creator is the current authenticated wallet owner
+* `is_minted_by_and_owned_by_wallet` — a boolean that indicates whether or not the token was both created and currently owned by the current authenticated wallet owner
 * `tx_hash` — the hash of the transaction
 * `contract` — the smart contract associated with the token
   * `contract_address` — the address to the smart contract
@@ -39,10 +40,10 @@ The default template for a token is `token.hbs`, which is a required template in
   * `video_url` — the URL for the video.
   * `audio_url` — the URL for the audio.
 * `url` — the web URL for the token page
-* `properties` — an array of token properties, otherwise known as traits
+* `properties` — an dictionary of token properties, otherwise known as traits
 * `featured` — indicates if the token is featured. Defaults to `false`.
-* `timestamp` — date and time when the token was acquired
-* `created_at` — date and time when the token was first created
+* `received_at` — date and time when the token was acquired
+* `minted_at` — date and time when the token was first created
 * `published_at` — date and time when the token was published on the site
 * `tags` — an array of tags associated with the token 
 * `meta_title` — custom meta title for the token

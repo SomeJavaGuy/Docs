@@ -68,6 +68,10 @@ This template is used to display a single token, which is used alongisde `defaul
 
 Tag template pages work similar to `index.hbs` but sets up a unique style for a given tag. Otherwise tag pages default ot the list style of choice.
 
+### minted.hbs
+
+This generates a list of tokens that have `minted_by_wallet` set to true.
+
 ### wallet.hbs
 
 Similar to the `tag.hbs` template, this allows a given wallet address to have its own index style. This is more useful in sites that have multiple wallets configured.
@@ -90,12 +94,12 @@ In our default theme, Folsom, we use [TailwindCSS](https://tailwindcss.com) whic
 
 Some classes are generated automatically and can be leveraged in those contexts to apply a different styling. Automatic classes include:
 
-* `featured` — a featured token
-* `media-image` — an image token
-* `media-video` — a video token
-* `media-audio` — an audio token
-* `created` — a token that was created by an authenticated wallet
-* `collected` — a token that is owned by, but wasn't created by the authenticated wallet
+* `rodeo-featured` — a featured token
+* `rodeo-media-image` — an image token
+* `rodeo-media-video` — a video token
+* `rodeo-media-audio` — an audio token
+* `rodeo-minted` — a token that was created by an authenticated wallet
+* `rodeo-collected` — a token that is owned by, but wasn't created by the authenticated wallet
 
 ## Package.json
 
