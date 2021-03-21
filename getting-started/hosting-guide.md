@@ -8,19 +8,15 @@ description: >-
 
 ### Netlify
 
-Rodeo supports Netlify right out of the box. Simply pair your git repo using Netlify's automatic
+Rodeo supports Netlify right out of the box. Simply pair your git repo using Netlify and it will know how to deploy it.
 
-@todo photos + walkthrough
-
-### Vercel
-
-@todo photos + walkthrough
-
-### Amazon S3
-
-@todo photos + walkthrough
+![](../.gitbook/assets/cleanshot-2021-03-21-at-08.41.58-2x.png)
 
 ### IPFS
 
-Coming soon ...
+```text
+yarn ipfs
+```
+
+This will deploy your site to IPFS using Pinata
 
